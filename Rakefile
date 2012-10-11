@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "acts_as_videoclub"
   gem.homepage = "http://github.com/jujudellago/acts_as_videoclub"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{gem to manage polymorphic associated videos}
+  gem.description = %Q{Very specific for a project, extracted from a plugin based on the original https://github.com/linkingpaths/acts_as_videoclub}
   gem.email = "julien@yabo-concept.ch"
   gem.authors = ["Yabo-concept"]
   # dependencies defined in Gemfile
