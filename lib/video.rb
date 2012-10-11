@@ -1,5 +1,6 @@
 class Video < ActiveRecord::Base
   require 'youtube_it'
+  require 'friendly_id'
   belongs_to :resource, :polymorphic => true
  # before_validation :get_datas
   #validates_presence_of :source_url, :title, :thumbnail_url
